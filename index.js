@@ -79,6 +79,10 @@ client.on('message', async message =>{
 const token = process.env.TOKEN; // Remove any whitespace or newline characters
 client.login(process.env.TOKEN); 
 
-app.listen(port, () => {
-  console.log(`Risithai ready ${port}`)
+app.listen(process.env.PORT, () => {
+  console.log(`Risithai ready ${process.env.PORT}`)
+
+
+app.get('/', (req, res) => {
+  res.send('Salut khey')
 })
