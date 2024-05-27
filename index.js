@@ -12,7 +12,7 @@ client.commands = new Discord.Collection();
 const welcomeMessage = fs.readFileSync('intromsg.txt', 'utf8');
 
 const COMMANDS_LIST = [];
-const COMMANDS_DISABLED = ["drink", "sticker", "resume"];
+const COMMANDS_DISABLED = ["drink", "sticker"];
 
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
 for(const file of commandFiles){
