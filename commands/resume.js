@@ -10,7 +10,7 @@ module.exports={
     async execute(message, args, client){
         try {
             const messageChannelId = message.channel.id;
-            if(FORBIDDEN_CHAN.includes(messageChannelId)) {message.channel.send("Tu peux pas faire ca ici mon petit khey"); return; }
+            if(FORBIDDEN_CHAN.includes(messageChannelId)) return;
 
             // grab response id
             let startid = null, endid = message.id;
