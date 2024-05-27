@@ -40,6 +40,7 @@ module.exports={
             allMessages = allMessages.sort((a, b) => a.createdTimestamp - b.createdTimestamp);
             let realConvListDiscord = allMessages;
             console.log("recuperation messages...ok");
+            if(index > 5000) return;
 
 
             // build conv in string for gpt
