@@ -1,0 +1,27 @@
+{
+    "correctResponses": [
+      "Wow, tu es comme une encyclopédie ambulante !",
+      "Impressionnant ! Tu dois avoir une mémoire photographique.",
+      "Bravo, tu es imbattable !",
+      "Excellent travail ! Tu es une star des jeux de connaissances.",
+      "Bien joué ! Tu connais vraiment ton sujet.",
+      "Incroyable ! Tu es une source de savoir.",
+      "Super ! Tu es en feu aujourd'hui.",
+      "Très bien ! Ton intelligence est intimidante.",
+      "Woo-hoo ! Tu l'as cloué !",
+      "Félicitations ! Tu mérites un prix pour celle-là."
+    ],
+    "incorrectResponses": [
+      "Oups, c'était un raté.",
+      "Pas tout à fait, mais bon, au moins tu as essayé.",
+      "Incorrect, mais ne t'inquiète pas, il y aura toujours la prochaine question.",
+      "Presque, mais pas tout à fait.",
+      "Belle tentative, meilleure chance la prochaine fois !",
+      "Oops, on dirait que tu as raté ça.",
+      "Non, mais continue à essayer, tu y arriveras !",
+      "Pas même proche, mais garde le moral !",
+      "Oh, zut, ce n'était pas ça.",
+      "Non, mais ne t'inquiète pas, celle-là était difficile."
+    ]
+  }
+  
