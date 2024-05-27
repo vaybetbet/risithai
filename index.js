@@ -3,6 +3,10 @@ const { poll } = require('discord.js-poll');
 const client = new Discord.Client();
 const prefix = ['!'];
 const fs = require('fs');
+const express = require('express')
+const app = express()
+const port = 3000;
+
 client.commands = new Discord.Collection();
 
 const welcomeMessage = fs.readFileSync('intromsg.txt', 'utf8');
@@ -74,3 +78,7 @@ client.on('message', async message =>{
 
 const token = process.env.TOKEN; // Remove any whitespace or newline characters
 client.login(process.env.TOKEN); 
+
+app.listen(port, () => {
+  console.log(`Risithai ready ${port}`)
+})
