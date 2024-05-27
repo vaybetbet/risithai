@@ -72,9 +72,5 @@ client.on('message', async message =>{
     }
 });
 
-// Read the token from the file
-fs.readFile('token.txt', 'utf8', (err, data) => {
-    if (err) { console.error('Error reading token file:', err); return; }
-    const token = data.trim(); // Remove any whitespace or newline characters
-    client.login(token); // Call the login function with the token
-});
+const token = process.env.TOKEN; // Remove any whitespace or newline characters
+client.login(process.env.TOKEN); 
