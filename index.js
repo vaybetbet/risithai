@@ -85,5 +85,6 @@ app.listen(PORT, () => {
 })
 
 app.get('/', (req, res) => {
-  res.send('Salut khey')
+    console.log("Salut khey send");
+    res.send('Salut khey');
 })
