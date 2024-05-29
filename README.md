@@ -1,9 +1,6 @@
-"# discord__bot" 
-editedd
-d
-d
-d
-d
-d
-d
-dd
+# discord bot
+
+Contributeurs:
+- jerem
+- waki
+- vaybetbet
