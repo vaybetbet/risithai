@@ -122,7 +122,7 @@ module.exports={
             }
 
 
-            // looping conv / make gpt request step by step if too long / or just stack
+            // looping conv / stack gpt request step by step if conv too long / or just stack conv string
             let allGPTResponses = [];
             for(let i=0;i<realConvListDiscord.length;i++) {
                 if(realConvListDiscord[i].member.displayName === BOT_USERNAME) continue;
