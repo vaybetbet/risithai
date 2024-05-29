@@ -1,4 +1,4 @@
-# discord bot
+# Risithai bot
 
 Contributeurs:
 - jerem
