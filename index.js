@@ -3,7 +3,7 @@ const { poll } = require('discord.js-poll');
 const client = new Discord.Client();
 const prefix = ['!'];
 const fs = require('fs');
-const express = require('express')
+const express = require('express');
 const app = express()
 const port = 3000;
 
